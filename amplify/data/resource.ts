@@ -12,6 +12,14 @@ const schema = a.schema({
       content: a.string(),
     })
     .authorization((allow) => [allow.owner()]),
+  Smokes: a 
+    .model({
+      name: a.string(),
+      date: a.date(),
+      description: a.string(),
+      foodType: a.string(),
+      tempData: a.json(),
+    }).authorization((allow) => [allow.owner()]),
 });
 
 export type Schema = ClientSchema<typeof schema>;

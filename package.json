@@ -11,10 +11,18 @@
   "dependencies": {
     "@aws-amplify/ui-react": "^6.5.5",
     "@aws-amplify/ui-react-core": "^3.3.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.1.1",
+    "@mui/icons-material": "^6.4.5",
+    "@mui/material": "^6.4.5",
+    "@mui/styled-engine-sc": "^6.4.3",
+    "@toolpad/core": "^0.12.0",
     "aws-amplify": "^6.6.6",
     "next": "14.2.10",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "styled-components": "^6.1.15"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.5.1",
