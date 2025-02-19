@@ -22,7 +22,7 @@ import {
   ThemeProvider,
   defaultDarkModeOverride,
 } from "@aws-amplify/ui-react";
-import BottomNavComponent from "./components/BottomNav";
+import BottomNavComponent from "@/app/components/BottomNav";
 
 Amplify.configure(outputs);
 
