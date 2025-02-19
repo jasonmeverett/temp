@@ -5,7 +5,7 @@ import "@/app/app.css";
 import React, { useEffect, useState } from "react"
 import { fetchUserAttributes } from "aws-amplify/auth";
 import { Heading, useAuthenticator, View } from "@aws-amplify/ui-react";
-
+import LogHeader from "../components/log/LogHeader";
 
 const HomePage: React.FC = () => {
   const { user, signOut } = useAuthenticator();
@@ -27,11 +27,7 @@ const HomePage: React.FC = () => {
       display: 'flex',
       flexDirection: 'column'
     }}>
-      <Heading
-        level={1}
-      >
-        Log
-      </Heading>
+      <LogHeader />
     </View>
   </>)
 }

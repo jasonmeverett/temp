@@ -19,6 +19,7 @@ const schema = a.schema({
       description: a.string(),
       foodType: a.string(),
       tempData: a.json(),
+      isActive: a.boolean(),
     }).authorization((allow) => [allow.owner()]),
 });
 
